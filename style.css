@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Poppins:wght@200;300;400&display=swap');
+ 
+ 
+ 
+ 
+ 
+ 
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    
+}
+ 
+
+hr{
+    color: black;
+    height: 2px;
+    width: 100%;
+    border: none;
+    background-color:#ddd;
+    margin-top: 9rem;
+    margin-bottom: 10rem;
+}
+/* home */
+
+.home{
+    background:url(img/menu5.jpg) no-repeat;
+    min-height: 120vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: -7rem;
+    display: flex;
+    align-items: center;
+    
+
+}
+ 
+
+.home .content h2{
+  color: rgb(233, 235, 238);
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+  border-bottom: 0.5rem solid white;
+  border-radius: 3rem;
+  padding:3rem  3rem;
+  width: 5rem;
+  position: absolute;
+  top: -1rem;
+  padding-bottom: 1rem;
+  
+}
+
+
+.home .content h4{
+  font-size: 3rem;
+  color: white;
+  padding: 1rem 40rem;
+  
+
+}
+
+.home .content p{
+    color:white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.8 ;
+    padding:1rem 39rem;
+    padding-bottom: 15rem;
+
+    
+    
+
+}
+
+.home .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 2rem 2.75rem;
+    border-radius: 10rem;
+    font-size: 1.8rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;   
+    margin:0.1rem 52rem;
+    position: absolute;
+    top:32rem;
+
+}
+
+.home .btn:hover{
+    opacity: 0.5;
+    
+}
+
+/* home */
+
+/* hakkımızda */
+.about .row{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    margin-top: 5rem;
+
+}
+
+
+.about .row .image {
+    flex: 1 1 45rem;
+    padding:5rem;
+    
+
+     
+
+}
+
+.about .row img {
+  max-width: 75%;
+
+    
+}
+
+.about .row .content{
+    flex: 1 1 45rem;
+}
+
+.about .row .content h2{
+    font-size: 3rem;
+    position: relative;
+    top: 70px;
+    right:-12rem;
+    font-family: 'Herr Von Muellerhoff', cursive;
+    font-size: 7rem;
+    font-weight: 100;
+ 
+}
+
+.about .row .content p{
+    font-size: 1.2rem;
+    padding: 7rem 0;
+    line-height: 1.8rem;
+    margin-right: 6rem;
+    letter-spacing: 0.9px;
+    
+}
+
+/* hakkımızda */
+
+/*  menu*/
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 3,75rem 0;
+    overflow: hidden;
+
+}
+
+.menu .menu-picture{
+    display: flex;
+    align-items: center;
+
+}
+
+.menu .menu-picture img{
+     width: 100%;
+     height: 100%;
+     max-width: 8.785rem;
+     border-radius:50% ;
+     padding: 0.313rem;
+     transition: .3s;
+}
+
+.menu .menu-picture img:hover{
+    transform: translateY(-0.313rem);
+}
+
+.menu-picture .col-1{
+    margin-left:-1.25rem ;
+}
+
+.menu-picture .col-6{
+    margin-right: -7.5rem;
+}
+
+.col-2, .col-5{
+    margin-bottom:5.625rem;
+}
+
+.menu .menu-info{
+    margin: 0 3.438rem;
+}
+
+.menu .menu-info h1,p{
+    text-align: center;
+}
+
+.menu .menu-info h1{
+    font-size: 5rem;
+    font-family:'Herr Von Muellerhoff', cursive;
+    font-weight:400;
+    line-height: 1.2;
+    letter-spacing:0.7px;
+    position: relative;
+    left: -2rem;
+
+
+}
+
+.menu .menu-info p{
+    font-size: 0,875rem;
+    letter-spacing: 0.9px;
+    font-weight: 400;
+    margin:1.25rem 0;
+    position: relative;
+    left: -2rem;
+ 
+
+}
+
+ .menu .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.80rem 1.75rem;
+    border-radius:3rem;
+    font-size: 1.4rem;
+    color: white;
+    background-color: black;
+    cursor: pointer;   
+    margin:2rem 51rem;
+    position:absolute;
+    top: 152rem;
+   
+   
+
+
+}
+
+.menu a{
+    color: white;
+}
+
+
+/* iletişim */
+
+.contact .row {
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.contact .row .map{
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.contact .row form{
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+
+}
+
+.contact .row form h3 { 
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: white;
+    background-color: black;
+
+}
+
+.contact .row form .inputBox {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    border: blue;
+
+}
+
+.contact .row form .inputBox i {
+    color: red;
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+
+.contact .row form .inputBox input {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: pink;
+    text-transform: none;
+    background-color: transparent;
+}
+
+.contact .row form .btn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.80rem 1.75rem;
+  border-radius: 3rem;
+  font-size: 1.2rem ;
+  color:black;
+  background-color: white;
+  cursor: pointer;
+  
+  
+}
+
+
