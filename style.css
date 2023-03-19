@@ -84,7 +84,7 @@ hr{
     color: white;
     background-color: black;
     cursor: pointer;   
-    margin:0.1rem 52rem;
+    margin:0.1rem 51rem;
     position: absolute;
     top:32rem;
 
@@ -245,13 +245,14 @@ hr{
 
 
 /* iletişim */
-
-.contact .row {
+.contact{
+    padding: 3.5rem 7%;
+}
+.contact .row{
     display: flex;
     background-color: black;
     flex-wrap: wrap;
     gap: 1rem;
-
 }
 
 .contact .row .map{
@@ -260,55 +261,55 @@ hr{
     object-fit: cover;
 }
 
+
 .contact .row form{
     flex: 1 1 45rem;
-    padding: 5rem 2rem;
+    padding:5rem 2rem ;
     text-align: center;
 
-}
+   }
 
-.contact .row form h3 { 
+   .contact .row form h3{
     text-transform: uppercase;
     font-size: 3.5rem;
     color: white;
-    background-color: black;
+   }
 
-}
-
-.contact .row form .inputBox {
+   .contact .row form .inputBox{
     display: flex;
     align-items: center;
     margin: 2rem 0;
-    border: blue;
+    border:white;
+    
+   }
 
-}
-
-.contact .row form .inputBox i {
-    color: red;
-    padding-left: 2rem;
+   .contact .row form .inputBox i{
+    color: white;
     font-size: 2rem;
-}
+    padding-left: 2rem;
 
-.contact .row form .inputBox input {
+   }
+
+   .contact .row form .inputBox input{
     width: 100%;
-    padding: 2rem;
-    font-size: 1.7rem;
-    color: pink;
+    padding: rem;
+    font-size:1.4rem ;
+    color: white;
     text-transform: none;
-    background-color: transparent;
-}
-
-.contact .row form .btn {
-  margin-top: 1rem;
-  display: inline-block;
-  padding: 0.80rem 1.75rem;
-  border-radius: 3rem;
-  font-size: 1.2rem ;
-  color:black;
-  background-color: white;
-  cursor: pointer;
+    background:transparent;
+   }
   
-  
-}
 
+   .contact .row form .btn{
+    color:black;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    border-radius:3rem;
+    font-size: 1.2rem;
+    color:black;
+    padding: 0.80rem 1.75rem;
+    
 
+   }
