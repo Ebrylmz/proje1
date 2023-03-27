@@ -234,11 +234,11 @@ hr{
     position:absolute;
     top: 152rem;
    
-   
-
-
 }
 
+.menu .btn:hover{
+    opacity: 0.6;
+}
 .menu a{
     color: white;
 }
